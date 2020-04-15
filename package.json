@@ -1,0 +1,38 @@
+{
+  "name": "aza",
+  "version": "1.0.0",
+  "description": "checkout page for aza fashions",
+  "main": "index.js",
+  "scripts": {
+    "css": "./build.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/backslashr/aza.git"
+  },
+  "author": "backslashr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/backslashr/aza/issues"
+  },
+  "homepage": "https://github.com/backslashr/aza#readme",
+  "dependencies": {
+    "autoprefixer": "^9.7.6",
+    "bootstrap": "^4.4.1",
+    "cssnano": "^4.1.10",
+    "postcss-cli": "^7.1.0",
+    "postcss-color-function": "^4.1.0",
+    "postcss-discard-comments": "^4.0.2",
+    "postcss-discard-empty": "^4.0.1",
+    "postcss-extend": "^1.0.5",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-mixins": "^6.2.3",
+    "postcss-nested": "^4.2.1",
+    "postcss-simple-vars": "^5.0.2"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.2",
+    "http-server": "^0.12.1"
+  }
+}
